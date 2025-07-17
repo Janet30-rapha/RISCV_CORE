@@ -111,7 +111,7 @@ module tb;
     .rst_ni ( s_rst_n )
   );
 
-  pulpino_top
+  CSSSOC_top
   #(
     .USE_ZERO_RISCY    ( USE_ZERO_RISCY ),
     .RISCY_RV32F       ( RISCY_RV32F    ),
